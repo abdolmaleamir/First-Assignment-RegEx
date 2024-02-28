@@ -7,11 +7,9 @@ public class Exercise3 {
 
     /*
     implement the method below so that it extracts a URL from a String
-    I will write the basics for this one method, you will have to implement the other two methods from scratch
     */
-
     public static String extractURL(String text) {
-        String regex = "write your regex pattern here!";  // TODO
+        String regex ="\\b(?:(?:https?|ftp):\\/\\/|www\\.)[-A-Za-z0-9+&@#\\/%?=~_|!:,.;]*[-A-Za-z0-9+&@#\\/%?=~_|]" ;
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(text);
@@ -29,8 +27,14 @@ public class Exercise3 {
      */
 
     public static boolean validateEmail(String email) {
-        // TODO
-        return false;
+        String regex = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$";
+
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(email);
+
+        return matcher.matches();
+
+
     }
 
     /*
@@ -39,8 +43,15 @@ public class Exercise3 {
 
     public static List<String> findWordsWithRepeatLetters(String input) {
         List<String> wordsWithRepeatLetters = new ArrayList<>();
+        Pattern pattern = Pattern.compile("\\w*(\\w)\\w*\\1\\w*");
+        Matcher matcher = pattern.matcher(input);
+        while (matcher.find()) {
+            String word = matcher.group();
+            wordsWithRepeatLetters.add(word);
+        }
         return wordsWithRepeatLetters;
-        // TODO
+
+
     }
 
     /*
@@ -51,8 +62,25 @@ public class Exercise3 {
 
     public static List<String> findReapetdWords(String input) {
         List<String> repeatedWords = new ArrayList<>();
+        String[] words = input.split(" ");
+
+        for (int i = 0; i < words.length; i++) {
+            for (int j = i + 1; j < words.length; j++) {
+                if (words[i].equals(words[j])) {
+                    int k = j + 1;
+                    while (k < words.length && words[i].equals(words[k])) {
+                        k++;
+                    }
+                    if (k - j > 1) {
+                        repeatedWords.add(words[i] + words[i]);
+                    }
+                    i = k - 1;
+                    break;
+                }
+            }
+        }
+
         return repeatedWords;
-        // TODO
     }
 
     public static void main(String[] args) {

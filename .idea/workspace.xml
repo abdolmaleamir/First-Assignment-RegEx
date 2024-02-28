@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e52e7051-a47f-4498-b296-371307b11c04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/Exercise_1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/Exercise_2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/Exercise_3.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/Exercise_4.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercise3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +19,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2cfVrr5CT9K9lj37kR9mACFhKvn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,13 +30,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Exercise3.executor": "Run",
+    "JUnit.Test1 (۱).executor": "Run",
     "JUnit.Test1.executor": "Run",
+    "JUnit.Test2 (۱).executor": "Run",
     "JUnit.Test2.executor": "Run",
+    "JUnit.Test3 (۱).executor": "Run",
+    "JUnit.Test3,findWordsWithRepeatLettersTest1 and 3 more (۱).executor": "Run",
+    "JUnit.Test3,findWordsWithRepeatLettersTest1 and 3 more.executor": "Run",
     "JUnit.Test3.executor": "Run",
+    "JUnit.Test3.findWordsWithRepeatLettersTest4.executor": "Run",
     "JUnit.Test4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Amir__Abdolmaleki",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Mahan/Documents/Java/AP-1402/Third-Assignment-RegEx/.github/workflows",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -52,25 +53,9 @@
       <recent name="C:\Users\Mahan\Documents\Java\AP-1402\Third-Assignment-RegEx\.github\workflows" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test4">
-    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise3" />
-      <module name="Third-Assignment-RegEx" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Third-Assignment-RegEx" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Third-Assignment-RegEx" />
+  <component name="RunManager" selected="JUnit.Test3 (۱)">
+    <configuration name="Test2 (۱)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First-Assignment-RegEx" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test2" />
       <option name="TEST_OBJECT" value="class" />
@@ -78,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Third-Assignment-RegEx" />
+    <configuration name="Test3 (۱)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First-Assignment-RegEx" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test3" />
       <option name="TEST_OBJECT" value="class" />
@@ -87,22 +72,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Third-Assignment-RegEx" />
+    <configuration name="Test3,findWordsWithRepeatLettersTest1 and 3 more (۱)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First-Assignment-RegEx" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="Test3,findWordsWithRepeatLettersTest1" />
+        <pattern testClass="Test3,findWordsWithRepeatLettersTest2" />
+        <pattern testClass="Test3,findWordsWithRepeatLettersTest3" />
+        <pattern testClass="Test3,findWordsWithRepeatLettersTest4" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3,findWordsWithRepeatLettersTest1 and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First-Assignment-RegEx" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="Test3,findWordsWithRepeatLettersTest1" />
+        <pattern testClass="Test3,findWordsWithRepeatLettersTest2" />
+        <pattern testClass="Test3,findWordsWithRepeatLettersTest3" />
+        <pattern testClass="Test3,findWordsWithRepeatLettersTest4" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3.findWordsWithRepeatLettersTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First-Assignment-RegEx" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test4" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <option name="METHOD_NAME" value="findWordsWithRepeatLettersTest4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test4" />
-        <item itemvalue="JUnit.Test3" />
-        <item itemvalue="JUnit.Test1" />
-        <item itemvalue="JUnit.Test2" />
-        <item itemvalue="Application.Exercise3" />
+        <item itemvalue="JUnit.Test3 (۱)" />
+        <item itemvalue="JUnit.Test3.findWordsWithRepeatLettersTest4" />
+        <item itemvalue="JUnit.Test3,findWordsWithRepeatLettersTest1 and 3 more (۱)" />
+        <item itemvalue="JUnit.Test3,findWordsWithRepeatLettersTest1 and 3 more" />
+        <item itemvalue="JUnit.Test2 (۱)" />
       </list>
     </recent_temporary>
   </component>
